@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="archive">recursos/iconship/archive-svgrepo-com.svg</file>
+        <file alias="connect">recursos/iconship/link-svgrepo-com.svg</file>
+        <file>recursos/iconship/no-wifi-2-svgrepo-com.svg</file>
+        <file alias="pause">recursos/iconship/pause-svgrepo-com.svg</file>
+        <file alias="start">recursos/iconship/play-svgrepo-com.svg</file>
+        <file alias="search">recursos/iconship/search-svgrepo-com.svg</file>
+        <file alias="disconnect">recursos/iconship/unlinked-1-svgrepo-com.svg</file>
+        <file>recursos/iconship/wifi-2-svgrepo-com.svg</file>
+        <file alias="save">recursos/iconship/floppy-svgrepo-com.svg</file>
+        <file alias="mark">recursos/iconship/save-svgrepo-com.svg</file>
+        <file alias="stop">recursos/iconship/stop-svgrepo-com.svg</file>
+        <file alias="osc">recursos/iconship/share-1-svgrepo-com.svg</file>
+    </qresource>
+</RCC>

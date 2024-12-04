@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg1704"
+   sodipodi:docname="search-svgrepo-com.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1706"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.9775"
+     inkscape:cx="400"
+     inkscape:cy="400.51151"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1704" />
+  <circle
+     cx="10.5"
+     cy="10.5"
+     r="6.5"
+     stroke="#000000"
+     stroke-linejoin="round"
+     id="circle1693"
+     clip-path="url(#clipPath1838)" />
+  <path
+     d="m 19.6464,20.3536 c 0.1953,0.1952 0.5119,0.1952 0.7072,0 0.1952,-0.1953 0.1952,-0.5119 0,-0.7072 z m 0.7072,-0.7072 -5,-5 -0.7072,0.7072 5,5 z"
+     fill="#000000"
+     id="path1695"
+     clip-path="url(#clipPath1832)" />
+  <defs
+     id="defs1702">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1832">
+      <g
+         id="g1836">
+        <rect
+           width="24"
+           height="24"
+           fill="#ffffff"
+           id="rect1834"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1838">
+      <g
+         id="g1842">
+        <rect
+           width="24"
+           height="24"
+           fill="#ffffff"
+           id="rect1840"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1844">
+      <g
+         id="g1848">
+        <rect
+           width="24"
+           height="24"
+           fill="#ffffff"
+           id="rect1846"
+           x="0"
+           y="0" />
+      </g>
+    </clipPath>
+  </defs>
+</svg>

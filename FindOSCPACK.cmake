@@ -1,0 +1,20 @@
+include(FindPackageHandleStandardArgs)
+
+find_library(OSCPACK_LIBRARY NAMES oscpack)
+message(DEBUG, " Found OSCPACK LIB: ${OSCPACK_LIBRARY}")
+find_path(OSCPACK_INCLUDE_DIR NAMES osc/OscOutboundPacketStream.h)
+message(DEBUG, " CMAKE INCLUDE PATHS: ${CMAKE_SYSTEM_INCLUDE_PATH}")
+message(DEBUG, " Found OSCPACK INCLUDE: ${OSCPACK_INCLUDE_DIR}")
+
+find_package_handle_standard_args(OSCPACK REQUIRED_VARS OSCPACK_LIBRARY OSCPACK_INCLUDE_DIR)
+
+if (OSCPACK_FOUND)
+  mark_as_advanced(OSCPACK_INCLUDE_DIR)
+  mark_as_advanced(OSCPACK_LIBRARY)
+endif()
+
+if (OSCPACK_FOUND AND NOT TARGET OSCPACK::OSCPACK)
+  add_library(OSCPACK::OSCPACK IMPORTED)
+  set_property(TARGET OSCPACK::OSCPACK PROPERTY IMPORTED_LOCATION ${OSCPACK_LIBRARY})
+  target_include_directories(OSCPACK::OSCPACK INTERFACE ${OSCPACK_INCLUDE_DIR})
+endif()
